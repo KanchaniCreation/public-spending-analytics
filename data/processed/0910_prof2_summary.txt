@@ -1,0 +1,56 @@
+FILE: 0910_prof2.csv
+Total records: 1741
+Total columns: 17
+Duplicate rows: 0
+
+COLUMN NAMES:
+['pseudocode', 'balavatika_located_yn', 'special_training', 'material_training', 'free_text_books_pr', 'free_uniform_pr', 'free_text_books_up', 'free_uniform_up', 'acad_inspections', 'crc_coordinator', 'block_level_officers', 'district_officers', 'smc_exists', 'smc_smdc_same', 'smc_smdc_meetings', 'grants_receipt', 'grants_expenditure']
+
+DATA TYPES:
+pseudocode               int64
+balavatika_located_yn    int64
+special_training         int64
+material_training        int64
+free_text_books_pr       int64
+free_uniform_pr          int64
+free_text_books_up       int64
+free_uniform_up          int64
+acad_inspections         int64
+crc_coordinator          int64
+block_level_officers     int64
+district_officers        int64
+smc_exists               int64
+smc_smdc_same            int64
+smc_smdc_meetings        int64
+grants_receipt           int64
+grants_expenditure       int64
+
+MISSING VALUES:
+pseudocode               0
+balavatika_located_yn    0
+special_training         0
+material_training        0
+free_text_books_pr       0
+free_uniform_pr          0
+free_text_books_up       0
+free_uniform_up          0
+acad_inspections         0
+crc_coordinator          0
+block_level_officers     0
+district_officers        0
+smc_exists               0
+smc_smdc_same            0
+smc_smdc_meetings        0
+grants_receipt           0
+grants_expenditure       0
+
+STATISTICAL SUMMARY:
+         pseudocode  balavatika_located_yn  special_training  material_training  free_text_books_pr  free_uniform_pr  free_text_books_up  free_uniform_up  acad_inspections  crc_coordinator  block_level_officers  district_officers   smc_exists  smc_smdc_same  smc_smdc_meetings  grants_receipt  grants_expenditure
+count  1.741000e+03            1741.000000            1741.0        1741.000000         1741.000000      1741.000000         1741.000000      1741.000000       1741.000000      1741.000000           1741.000000        1741.000000  1741.000000    1741.000000        1741.000000    1.741000e+03        1.741000e+03
+mean   5.494106e+06               6.920161               9.0           1.831132            1.740379         1.829983            1.851235         1.909248          2.672602         0.866169              1.334291           0.741528     6.353245       8.749569           2.554854    5.066967e+04        5.025172e+04
+std    2.657632e+06               3.438783               0.0           0.374743            0.438553         0.375756            0.355959         0.287339          6.314433         2.708630              3.140159           2.066382     3.752375       1.354603           4.929970    1.482575e+06        1.482577e+06
+min    1.004547e+06               1.000000               9.0           1.000000            1.000000         1.000000            1.000000         1.000000          0.000000         0.000000              0.000000           0.000000     1.000000       1.000000           0.000000    0.000000e+00        0.000000e+00
+25%    3.082319e+06               2.000000               9.0           2.000000            1.000000         2.000000            2.000000         2.000000          0.000000         0.000000              0.000000           0.000000     1.000000       9.000000           0.000000    0.000000e+00        0.000000e+00
+50%    5.516493e+06               9.000000               9.0           2.000000            2.000000         2.000000            2.000000         2.000000          0.000000         0.000000              0.000000           0.000000     9.000000       9.000000           0.000000    0.000000e+00        0.000000e+00
+75%    7.848372e+06               9.000000               9.0           2.000000            2.000000         2.000000            2.000000         2.000000          0.000000         0.000000              0.000000           0.000000     9.000000       9.000000           0.000000    1.556000e+04        1.270000e+04
+max    9.996977e+06               9.000000               9.0           2.000000            2.000000         2.000000            2.000000         2.000000         75.000000        25.000000             25.000000          24.000000     9.000000       9.000000          23.000000    6.182571e+07        6.182571e+07

@@ -1,0 +1,7 @@
+file_name,rows,columns_count,duplicate_rows,missing_cells,missing_percentage
+0910_enr1.csv,11694,29,0,0,0.0
+0910_enr2.csv,20419,29,0,0,0.0
+0910_fac.csv,1741,70,0,0,0.0
+0910_prof1.csv,1741,36,0,5996,9.57
+0910_prof2.csv,1741,17,0,0,0.0
+0910_tch.csv,1741,38,0,0,0.0

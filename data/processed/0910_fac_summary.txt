@@ -1,0 +1,162 @@
+FILE: 0910_fac.csv
+Total records: 1741
+Total columns: 70
+Duplicate rows: 0
+
+COLUMN NAMES:
+['pseudocode', 'building_status', 'no_building_blocks', 'pucca_building_blocks', 'boundary_wall', 'total_class_rooms', 'other_rooms', 'classrooms_in_good_condition', 'classrooms_needs_minor_repair', 'classrooms_needs_major_repair', 'separate_room_for_hm', 'total_boys_toilet', 'total_boys_func_toilet', 'total_girls_toilet', 'total_girls_func_toilet', 'total_boys_cwsn_toilet', 'func_boys_cwsn_friendly', 'total_girls_cwsn_toilet', 'func_girls_cwsn_friendly', 'urinal_boys', 'urinal_girls', 'handwash_near_toilet', 'hand_pump_yn', 'well_prot_yn', 'tap_yn', 'othsrc_yn', 'well_unprot_yn', 'pack_water_yn', 'hand_pump_fun_yn', 'well_prot_fun_yn', 'tap_fun_yn', 'othsrc_fun_yn', 'well_unprot_fun_yn', 'pack_water_fun_yn', 'rain_water_harvesting', 'handwash_facility_for_meal', 'electricity_availability', 'solar_panel', 'library_availability', 'book_bank', 'reading_corner', 'playground_available', 'playground_alt_yn', 'medical_checkups', 'availability_ramps', 'availability_of_handrails', 'furniture_availability', 'phy_lab_cond', 'chem_lab_cond', 'bio_lab_cond', 'math_lab_cond', 'lang_lab_cond', 'geo_lab_cond', 'home_sc_lab_cond', 'psycho_lab_cond', 'comp_lab_cond', 'comp_ict_lab_yn', 'ict_lab_yn', 'laptop', 'tablet', 'desktop', 'digiboard', 'teachdev_tot', 'server_tot', 'smart_class_tv_tot', 'projector', 'printer', 'internet', 'dth', 'spl_educator_yn']
+
+DATA TYPES:
+pseudocode                       int64
+building_status                  int64
+no_building_blocks               int64
+pucca_building_blocks            int64
+boundary_wall                    int64
+total_class_rooms                int64
+other_rooms                      int64
+classrooms_in_good_condition     int64
+classrooms_needs_minor_repair    int64
+classrooms_needs_major_repair    int64
+separate_room_for_hm             int64
+total_boys_toilet                int64
+total_boys_func_toilet           int64
+total_girls_toilet               int64
+total_girls_func_toilet          int64
+total_boys_cwsn_toilet           int64
+func_boys_cwsn_friendly          int64
+total_girls_cwsn_toilet          int64
+func_girls_cwsn_friendly         int64
+urinal_boys                      int64
+urinal_girls                     int64
+handwash_near_toilet             int64
+hand_pump_yn                     int64
+well_prot_yn                     int64
+tap_yn                           int64
+othsrc_yn                        int64
+well_unprot_yn                   int64
+pack_water_yn                    int64
+hand_pump_fun_yn                 int64
+well_prot_fun_yn                 int64
+tap_fun_yn                       int64
+othsrc_fun_yn                    int64
+well_unprot_fun_yn               int64
+pack_water_fun_yn                int64
+rain_water_harvesting            int64
+handwash_facility_for_meal       int64
+electricity_availability         int64
+solar_panel                      int64
+library_availability             int64
+book_bank                        int64
+reading_corner                   int64
+playground_available             int64
+playground_alt_yn                int64
+medical_checkups                 int64
+availability_ramps               int64
+availability_of_handrails        int64
+furniture_availability           int64
+phy_lab_cond                     int64
+chem_lab_cond                    int64
+bio_lab_cond                     int64
+math_lab_cond                    int64
+lang_lab_cond                    int64
+geo_lab_cond                     int64
+home_sc_lab_cond                 int64
+psycho_lab_cond                  int64
+comp_lab_cond                    int64
+comp_ict_lab_yn                  int64
+ict_lab_yn                       int64
+laptop                           int64
+tablet                           int64
+desktop                          int64
+digiboard                        int64
+teachdev_tot                     int64
+server_tot                       int64
+smart_class_tv_tot               int64
+projector                        int64
+printer                          int64
+internet                         int64
+dth                              int64
+spl_educator_yn                  int64
+
+MISSING VALUES:
+pseudocode                       0
+building_status                  0
+no_building_blocks               0
+pucca_building_blocks            0
+boundary_wall                    0
+total_class_rooms                0
+other_rooms                      0
+classrooms_in_good_condition     0
+classrooms_needs_minor_repair    0
+classrooms_needs_major_repair    0
+separate_room_for_hm             0
+total_boys_toilet                0
+total_boys_func_toilet           0
+total_girls_toilet               0
+total_girls_func_toilet          0
+total_boys_cwsn_toilet           0
+func_boys_cwsn_friendly          0
+total_girls_cwsn_toilet          0
+func_girls_cwsn_friendly         0
+urinal_boys                      0
+urinal_girls                     0
+handwash_near_toilet             0
+hand_pump_yn                     0
+well_prot_yn                     0
+tap_yn                           0
+othsrc_yn                        0
+well_unprot_yn                   0
+pack_water_yn                    0
+hand_pump_fun_yn                 0
+well_prot_fun_yn                 0
+tap_fun_yn                       0
+othsrc_fun_yn                    0
+well_unprot_fun_yn               0
+pack_water_fun_yn                0
+rain_water_harvesting            0
+handwash_facility_for_meal       0
+electricity_availability         0
+solar_panel                      0
+library_availability             0
+book_bank                        0
+reading_corner                   0
+playground_available             0
+playground_alt_yn                0
+medical_checkups                 0
+availability_ramps               0
+availability_of_handrails        0
+furniture_availability           0
+phy_lab_cond                     0
+chem_lab_cond                    0
+bio_lab_cond                     0
+math_lab_cond                    0
+lang_lab_cond                    0
+geo_lab_cond                     0
+home_sc_lab_cond                 0
+psycho_lab_cond                  0
+comp_lab_cond                    0
+comp_ict_lab_yn                  0
+ict_lab_yn                       0
+laptop                           0
+tablet                           0
+desktop                          0
+digiboard                        0
+teachdev_tot                     0
+server_tot                       0
+smart_class_tv_tot               0
+projector                        0
+printer                          0
+internet                         0
+dth                              0
+spl_educator_yn                  0
+
+STATISTICAL SUMMARY:
+         pseudocode  building_status  no_building_blocks  pucca_building_blocks  boundary_wall  total_class_rooms  other_rooms  classrooms_in_good_condition  classrooms_needs_minor_repair  classrooms_needs_major_repair  separate_room_for_hm  total_boys_toilet  total_boys_func_toilet  total_girls_toilet  total_girls_func_toilet  total_boys_cwsn_toilet  func_boys_cwsn_friendly  total_girls_cwsn_toilet  func_girls_cwsn_friendly  urinal_boys  urinal_girls  handwash_near_toilet  hand_pump_yn  well_prot_yn       tap_yn    othsrc_yn  well_unprot_yn  pack_water_yn  hand_pump_fun_yn  well_prot_fun_yn   tap_fun_yn  othsrc_fun_yn  well_unprot_fun_yn  pack_water_fun_yn  rain_water_harvesting  handwash_facility_for_meal  electricity_availability  solar_panel  library_availability    book_bank  reading_corner  playground_available  playground_alt_yn  medical_checkups  availability_ramps  availability_of_handrails  furniture_availability  phy_lab_cond  chem_lab_cond  bio_lab_cond  math_lab_cond  lang_lab_cond  geo_lab_cond  home_sc_lab_cond  psycho_lab_cond  comp_lab_cond  comp_ict_lab_yn   ict_lab_yn       laptop       tablet      desktop    digiboard  teachdev_tot   server_tot  smart_class_tv_tot    projector      printer     internet          dth  spl_educator_yn
+count  1.741000e+03      1741.000000         1741.000000            1741.000000    1741.000000        1741.000000  1741.000000                   1741.000000                    1741.000000                    1741.000000           1741.000000        1741.000000             1741.000000         1741.000000              1741.000000             1741.000000              1741.000000              1741.000000               1741.000000  1741.000000   1741.000000           1741.000000   1741.000000   1741.000000  1741.000000  1741.000000     1741.000000    1741.000000       1741.000000       1741.000000  1741.000000    1741.000000         1741.000000        1741.000000            1741.000000                 1741.000000               1741.000000  1741.000000           1741.000000  1741.000000     1741.000000           1741.000000        1741.000000       1741.000000         1741.000000                1741.000000             1741.000000   1741.000000    1741.000000   1741.000000    1741.000000    1741.000000   1741.000000       1741.000000      1741.000000    1741.000000      1741.000000  1741.000000  1741.000000  1741.000000  1741.000000  1741.000000   1741.000000  1741.000000         1741.000000  1741.000000  1741.000000  1741.000000  1741.000000      1741.000000
+mean   5.494106e+06         1.824239            2.690408               2.468696       1.268237          15.232051     8.647329                     14.585870                       0.339460                       0.306720              1.090178           5.175187                4.968409            5.537048                 5.354394                0.950603                 0.893165                 0.895462                  0.859851     5.371626      3.619184              1.046525      1.242389      1.886272     1.342906     1.888570        2.004021       1.866743          2.666284          7.781735     3.458932       7.792074            8.716255           7.620333               1.612866                    1.047674                  1.078690     1.863297              1.203906     1.607697        1.386559              1.137852           7.979322          1.418725            1.287766                   3.551407                1.163125      0.239518       0.240092      0.240666       0.350948       0.460080      0.496841          0.520391         0.537622       0.305572         1.560023     7.840322     2.218265     0.905801    11.153935    10.527858      2.242389     0.276278            2.380241     2.253877     1.530729     1.415853     1.793797         2.532453
+std    2.657632e+06         0.926685            4.853256               4.039997       1.068282          17.863407    13.362227                     18.125115                       1.348558                       1.125006              0.286519          10.967391               10.791953           12.017010                11.936719                3.358276                 3.338570                 3.703910                  3.691852    13.557001     10.057779              0.210680      0.711042      0.650147     0.739791     0.648775        0.563737       0.661366          3.196542          2.859051     3.656699       2.858817            1.466450           3.013765               0.563788                    0.213136                  0.323611     0.420362              0.403016     0.488404        0.487101              0.344843           2.559775          0.493492            0.452851                   3.487634                0.458428      0.639289       0.641318      0.644232       0.941560       1.160776      1.221746          1.261846         1.288050       0.839895         0.496527     2.624335    14.252063     7.006916    29.482790    93.058238     10.426638     0.673006            9.363732     9.132857     3.555763     0.493010     0.404694         0.796334
+min    1.004547e+06         1.000000            0.000000               0.000000       1.000000           0.000000     0.000000                      0.000000                       0.000000                       0.000000              1.000000           0.000000                0.000000            0.000000                 0.000000                0.000000                 0.000000                 0.000000                  0.000000     0.000000      0.000000              1.000000      1.000000      1.000000     1.000000     1.000000        1.000000       1.000000          1.000000          1.000000     1.000000       1.000000            1.000000           1.000000               1.000000                    1.000000                  1.000000     1.000000              1.000000     1.000000        1.000000              1.000000           1.000000          1.000000            1.000000                   1.000000                1.000000      0.000000       0.000000      0.000000       0.000000       0.000000      0.000000          0.000000         0.000000       0.000000         1.000000     1.000000     0.000000     0.000000     0.000000     0.000000      0.000000     0.000000            0.000000     0.000000     0.000000     1.000000     1.000000         1.000000
+25%    3.082319e+06         1.000000            1.000000               1.000000       1.000000           6.000000     3.000000                      5.000000                       0.000000                       0.000000              1.000000           1.000000                1.000000            1.000000                 1.000000                0.000000                 0.000000                 0.000000                  0.000000     1.000000      0.000000              1.000000      1.000000      2.000000     1.000000     2.000000        2.000000       2.000000          1.000000          9.000000     1.000000       9.000000            9.000000           9.000000               1.000000                    1.000000                  1.000000     2.000000              1.000000     1.000000        1.000000              1.000000           9.000000          1.000000            1.000000                   1.000000                1.000000      0.000000       0.000000      0.000000       0.000000       0.000000      0.000000          0.000000         0.000000       0.000000         1.000000     9.000000     0.000000     0.000000     0.000000     0.000000      0.000000     0.000000            0.000000     0.000000     0.000000     1.000000     2.000000         2.000000
+50%    5.516493e+06         1.000000            1.000000               1.000000       1.000000          11.000000     6.000000                     10.000000                       0.000000                       0.000000              1.000000           2.000000                2.000000            2.000000                 2.000000                0.000000                 0.000000                 0.000000                  0.000000     2.000000      1.000000              1.000000      1.000000      2.000000     1.000000     2.000000        2.000000       2.000000          1.000000          9.000000     1.000000       9.000000            9.000000           9.000000               2.000000                    1.000000                  1.000000     2.000000              1.000000     2.000000        1.000000              1.000000           9.000000          1.000000            1.000000                   2.000000                1.000000      0.000000       0.000000      0.000000       0.000000       0.000000      0.000000          0.000000         0.000000       0.000000         2.000000     9.000000     0.000000     0.000000     2.000000     0.000000      0.000000     0.000000            0.000000     0.000000     1.000000     1.000000     2.000000         3.000000
+75%    7.848372e+06         3.000000            2.000000               2.000000       1.000000          17.000000    10.000000                     16.000000                       0.000000                       0.000000              1.000000           4.000000                4.000000            4.000000                 4.000000                1.000000                 1.000000                 1.000000                  1.000000     4.000000      3.000000              1.000000      1.000000      2.000000     2.000000     2.000000        2.000000       2.000000          2.000000          9.000000     9.000000       9.000000            9.000000           9.000000               2.000000                    1.000000                  1.000000     2.000000              1.000000     2.000000        2.000000              1.000000           9.000000          2.000000            2.000000                   9.000000                1.000000      0.000000       0.000000      0.000000       0.000000       0.000000      0.000000          0.000000         0.000000       0.000000         2.000000     9.000000     1.000000     0.000000    10.000000     0.000000      0.000000     0.000000            1.000000     1.000000     2.000000     2.000000     2.000000         3.000000
+max    9.996977e+06         6.000000          101.000000              37.000000       8.000000         183.000000   303.000000                    183.000000                      27.000000                      13.000000              2.000000         184.000000              184.000000          208.000000               208.000000               67.000000                67.000000                86.000000                 86.000000   184.000000    189.000000              2.000000      9.000000      9.000000     9.000000     9.000000        9.000000       9.000000          9.000000          9.000000     9.000000       9.000000            9.000000           9.000000               3.000000                    2.000000                  3.000000     3.000000              2.000000     2.000000        2.000000              2.000000           9.000000          2.000000            2.000000                   9.000000                3.000000      4.000000       4.000000      4.000000       4.000000       4.000000      4.000000          4.000000         4.000000       4.000000         2.000000     9.000000   350.000000   184.000000   480.000000  1500.000000    192.000000     6.000000           99.000000    99.000000    50.000000     2.000000     2.000000         3.000000

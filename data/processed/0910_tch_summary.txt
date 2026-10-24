@@ -1,0 +1,98 @@
+FILE: 0910_tch.csv
+Total records: 1741
+Total columns: 38
+Duplicate rows: 0
+
+COLUMN NAMES:
+['pseudocode', 'total_tch', 'male', 'female', 'transgender', 'gen_tch', 'sc_tch', 'st_tch', 'obc_tch', 'regular', 'contract', 'part_time', 'below_graduate', 'graduate', 'post_graduate_and_above', 'trained_comp', 'class_taught_pr', 'class_taught_upr', 'class_taught_pr_upr', 'class_taught_sec_only', 'class_taught_hsec_only', 'class_taught_upr_sec', 'class_taught_sec_hsec', 'class_taugt_pre_primary_only', 'class_taught_pr_and_pre_pri', 'teacher_involve_non_training_assignment', 'diploma_certificate', 'bachelor_of_ee', 'bed_equivalent', 'med_equivalent', 'other', 'none', 'diploma_special_edu', 'pursuing_rpc', 'diploma_ele_edu', 'early_childhood_tch', 'bed_nursery', 'trained_cwsn']
+
+DATA TYPES:
+pseudocode                                 int64
+total_tch                                  int64
+male                                       int64
+female                                     int64
+transgender                                int64
+gen_tch                                    int64
+sc_tch                                     int64
+st_tch                                     int64
+obc_tch                                    int64
+regular                                    int64
+contract                                   int64
+part_time                                  int64
+below_graduate                             int64
+graduate                                   int64
+post_graduate_and_above                    int64
+trained_comp                               int64
+class_taught_pr                            int64
+class_taught_upr                           int64
+class_taught_pr_upr                        int64
+class_taught_sec_only                      int64
+class_taught_hsec_only                     int64
+class_taught_upr_sec                       int64
+class_taught_sec_hsec                      int64
+class_taugt_pre_primary_only               int64
+class_taught_pr_and_pre_pri                int64
+teacher_involve_non_training_assignment    int64
+diploma_certificate                        int64
+bachelor_of_ee                             int64
+bed_equivalent                             int64
+med_equivalent                             int64
+other                                      int64
+none                                       int64
+diploma_special_edu                        int64
+pursuing_rpc                               int64
+diploma_ele_edu                            int64
+early_childhood_tch                        int64
+bed_nursery                                int64
+trained_cwsn                               int64
+
+MISSING VALUES:
+pseudocode                                 0
+total_tch                                  0
+male                                       0
+female                                     0
+transgender                                0
+gen_tch                                    0
+sc_tch                                     0
+st_tch                                     0
+obc_tch                                    0
+regular                                    0
+contract                                   0
+part_time                                  0
+below_graduate                             0
+graduate                                   0
+post_graduate_and_above                    0
+trained_comp                               0
+class_taught_pr                            0
+class_taught_upr                           0
+class_taught_pr_upr                        0
+class_taught_sec_only                      0
+class_taught_hsec_only                     0
+class_taught_upr_sec                       0
+class_taught_sec_hsec                      0
+class_taugt_pre_primary_only               0
+class_taught_pr_and_pre_pri                0
+teacher_involve_non_training_assignment    0
+diploma_certificate                        0
+bachelor_of_ee                             0
+bed_equivalent                             0
+med_equivalent                             0
+other                                      0
+none                                       0
+diploma_special_edu                        0
+pursuing_rpc                               0
+diploma_ele_edu                            0
+early_childhood_tch                        0
+bed_nursery                                0
+trained_cwsn                               0
+
+STATISTICAL SUMMARY:
+         pseudocode    total_tch         male       female  transgender      gen_tch       sc_tch       st_tch      obc_tch      regular     contract   part_time  below_graduate     graduate  post_graduate_and_above  trained_comp  class_taught_pr  class_taught_upr  class_taught_pr_upr  class_taught_sec_only  class_taught_hsec_only  class_taught_upr_sec  class_taught_sec_hsec  class_taugt_pre_primary_only  class_taught_pr_and_pre_pri  teacher_involve_non_training_assignment  diploma_certificate  bachelor_of_ee  bed_equivalent  med_equivalent        other         none  diploma_special_edu  pursuing_rpc  diploma_ele_edu  early_childhood_tch  bed_nursery  trained_cwsn
+count  1.741000e+03  1741.000000  1741.000000  1741.000000       1741.0  1741.000000  1741.000000  1741.000000  1741.000000  1741.000000  1741.000000  1741.00000     1741.000000  1741.000000              1741.000000   1741.000000      1741.000000       1741.000000          1741.000000            1741.000000             1741.000000           1741.000000            1741.000000                   1741.000000                  1741.000000                              1741.000000          1741.000000     1741.000000     1741.000000     1741.000000  1741.000000  1741.000000          1741.000000   1741.000000      1741.000000          1741.000000  1741.000000   1741.000000
+mean   5.494106e+06    14.777714     3.437679    11.340034          0.0    10.843194     0.885698     0.027570     3.021252    12.214245     2.386559     0.17691        0.446295     5.809879                 8.521539      9.365307         5.313613          2.252728             2.349799               1.147042                0.813900              0.927628               1.171166                      0.510626                     0.291212                                 1.946008             1.195864        0.292935        8.560597        0.418150     2.326249     1.371626             0.208501      0.144744         0.164848             0.046525     0.047674      1.568639
+std    2.657632e+06    26.109286     4.675473    23.016045          0.0    25.517880     1.514348     0.195755     3.313349    23.356398     7.463507     1.08953        1.096030     8.444412                18.273378     25.656480         8.347302          3.661763             5.094508               4.395031                2.896461              3.496869               3.920840                      2.606695                     1.506949                                 6.097056             1.895883        1.048974       18.922146        1.539441     4.877269     2.550023             0.809894      0.575118         0.558985             0.340074     0.300424      8.811273
+min    1.004547e+06     0.000000     0.000000     0.000000          0.0     0.000000     0.000000     0.000000     0.000000     0.000000     0.000000     0.00000        0.000000     0.000000                 0.000000      0.000000         0.000000          0.000000             0.000000               0.000000                0.000000              0.000000               0.000000                      0.000000                     0.000000                                 0.000000             0.000000        0.000000        0.000000        0.000000     0.000000     0.000000             0.000000      0.000000         0.000000             0.000000     0.000000      0.000000
+25%    3.082319e+06     5.000000     1.000000     3.000000          0.0     2.000000     0.000000     0.000000     1.000000     4.000000     0.000000     0.00000        0.000000     2.000000                 2.000000      0.000000         1.000000          0.000000             0.000000               0.000000                0.000000              0.000000               0.000000                      0.000000                     0.000000                                 0.000000             0.000000        0.000000        1.000000        0.000000     0.000000     0.000000             0.000000      0.000000         0.000000             0.000000     0.000000      0.000000
+50%    5.516493e+06     8.000000     2.000000     5.000000          0.0     4.000000     0.000000     0.000000     2.000000     6.000000     0.000000     0.00000        0.000000     4.000000                 3.000000      2.000000         4.000000          1.000000             0.000000               0.000000                0.000000              0.000000               0.000000                      0.000000                     0.000000                                 0.000000             0.000000        0.000000        3.000000        0.000000     1.000000     0.000000             0.000000      0.000000         0.000000             0.000000     0.000000      0.000000
+75%    7.848372e+06    13.000000     4.000000    10.000000          0.0     8.000000     1.000000     0.000000     4.000000    11.000000     2.000000     0.00000        0.000000     7.000000                 7.000000      6.000000         6.000000          4.000000             3.000000               0.000000                0.000000              0.000000               0.000000                      0.000000                     0.000000                                 1.000000             2.000000        0.000000        7.000000        0.000000     3.000000     2.000000             0.000000      0.000000         0.000000             0.000000     0.000000      1.000000
+max    9.996977e+06   325.000000    50.000000   283.000000          0.0   323.000000    29.000000     4.000000    39.000000   324.000000    97.000000    24.00000       13.000000    95.000000               229.000000    314.000000       102.000000         50.000000            95.000000              70.000000               27.000000             58.000000              39.000000                     34.000000                    38.000000                                97.000000            16.000000       23.000000      242.000000       34.000000    55.000000    30.000000            18.000000      6.000000         8.000000             6.000000     5.000000    246.000000

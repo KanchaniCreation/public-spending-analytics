@@ -1,0 +1,94 @@
+FILE: 0910_prof1.csv
+Total records: 1741
+Total columns: 36
+Duplicate rows: 0
+
+COLUMN NAMES:
+['pseudocode', 'state', 'district', 'rural_urban', 'lgd_urban_local_body_name', 'lgd_ward_name', 'lgd_vill_name', 'lgd_vill_panchayat_name', 'school_category', 'school_type', 'lowclass', 'highclass', 'managment', 'pincode', 'special_school_for_cwsn', 'shift_school', 'resi_school', 'resi_type', 'minority_school', 'medium_instr1', 'medium_of_instr2', 'medium_of_instr3', 'medium_of_instr4', 'aff_board_sec', 'aff_board_hsec', 'approachable_road', 'pre_primary', 'anganwadi_yn', 'avg_instr_days', 'cce_yn', 'same_sch_b', 'same_sch_g', 'other_sch_b', 'other_sch_g', 'anganwadi_ecce_b', 'anganwadi_ecce_g']
+
+DATA TYPES:
+pseudocode                    int64
+state                        object
+district                     object
+rural_urban                   int64
+lgd_urban_local_body_name    object
+lgd_ward_name                object
+lgd_vill_name                object
+lgd_vill_panchayat_name      object
+school_category               int64
+school_type                   int64
+lowclass                      int64
+highclass                     int64
+managment                     int64
+pincode                       int64
+special_school_for_cwsn       int64
+shift_school                  int64
+resi_school                   int64
+resi_type                     int64
+minority_school               int64
+medium_instr1                 int64
+medium_of_instr2              int64
+medium_of_instr3              int64
+medium_of_instr4              int64
+aff_board_sec                 int64
+aff_board_hsec                int64
+approachable_road             int64
+pre_primary                   int64
+anganwadi_yn                  int64
+avg_instr_days                int64
+cce_yn                        int64
+same_sch_b                    int64
+same_sch_g                    int64
+other_sch_b                   int64
+other_sch_g                   int64
+anganwadi_ecce_b              int64
+anganwadi_ecce_g              int64
+
+MISSING VALUES:
+pseudocode                      0
+state                           0
+district                        0
+rural_urban                     0
+lgd_urban_local_body_name    1579
+lgd_ward_name                1579
+lgd_vill_name                1393
+lgd_vill_panchayat_name      1445
+school_category                 0
+school_type                     0
+lowclass                        0
+highclass                       0
+managment                       0
+pincode                         0
+special_school_for_cwsn         0
+shift_school                    0
+resi_school                     0
+resi_type                       0
+minority_school                 0
+medium_instr1                   0
+medium_of_instr2                0
+medium_of_instr3                0
+medium_of_instr4                0
+aff_board_sec                   0
+aff_board_hsec                  0
+approachable_road               0
+pre_primary                     0
+anganwadi_yn                    0
+avg_instr_days                  0
+cce_yn                          0
+same_sch_b                      0
+same_sch_g                      0
+other_sch_b                     0
+other_sch_g                     0
+anganwadi_ecce_b                0
+anganwadi_ecce_g                0
+
+STATISTICAL SUMMARY:
+         pseudocode  rural_urban  school_category  school_type     lowclass    highclass    managment        pincode  special_school_for_cwsn  shift_school  resi_school    resi_type  minority_school  medium_instr1  medium_of_instr2  medium_of_instr3  medium_of_instr4  aff_board_sec  aff_board_hsec  approachable_road  pre_primary  anganwadi_yn  avg_instr_days       cce_yn   same_sch_b   same_sch_g  other_sch_b  other_sch_g  anganwadi_ecce_b  anganwadi_ecce_g
+count  1.741000e+03  1741.000000      1741.000000  1741.000000  1741.000000  1741.000000  1741.000000    1741.000000              1741.000000   1741.000000  1741.000000  1741.000000      1741.000000    1741.000000       1741.000000       1741.000000       1741.000000    1741.000000     1741.000000        1741.000000  1741.000000   1741.000000     1741.000000  1741.000000  1741.000000  1741.000000  1741.000000  1741.000000       1741.000000       1741.000000
+mean   5.494106e+06     1.101666         2.234922     2.989661     1.654796     7.716829     4.706491  202193.495118                 1.991384      1.989087     2.935095     0.129810         4.090752       8.498564         10.203906          5.705916          1.326249       0.322229        0.250431           1.129810     2.609994      6.927053      216.190121     1.399196    10.214245     8.429638     2.690982     2.029868          0.787478          0.777140
+std    2.657632e+06     0.302295         1.451697     0.111968     1.727654     2.444016     9.478015    3819.219429                 0.092447      0.103925     0.337047     0.682567         3.239631       6.869274          8.605151          7.328712          4.686781       0.697380        0.613456           0.336191     2.482373      3.427889       52.117573     0.489874    21.291101    18.510212     8.160240     5.920860          2.909494          2.830004
+min    1.004547e+06     1.000000         1.000000     1.000000     1.000000     5.000000     1.000000  100804.000000                 1.000000      1.000000     1.000000     0.000000         1.000000       4.000000          0.000000          0.000000          0.000000       0.000000        0.000000           1.000000     1.000000      1.000000        0.000000     1.000000     0.000000     0.000000     0.000000     0.000000          0.000000          0.000000
+25%    3.082319e+06     1.000000         1.000000     3.000000     1.000000     5.000000     1.000000  201301.000000                 2.000000      2.000000     3.000000     0.000000         2.000000       4.000000          0.000000          0.000000          0.000000       0.000000        0.000000           1.000000     1.000000      2.000000      220.000000     1.000000     0.000000     0.000000     0.000000     0.000000          0.000000          0.000000
+50%    5.516493e+06     1.000000         2.000000     3.000000     1.000000     8.000000     5.000000  201317.000000                 2.000000      2.000000     3.000000     0.000000         2.000000       4.000000         14.000000          0.000000          0.000000       0.000000        0.000000           1.000000     2.000000      9.000000      230.000000     1.000000     0.000000     0.000000     0.000000     0.000000          0.000000          0.000000
+75%    7.848372e+06     1.000000         3.000000     3.000000     1.000000     8.000000     5.000000  203207.000000                 2.000000      2.000000     3.000000     0.000000         9.000000      19.000000         19.000000         14.000000          0.000000       0.000000        0.000000           1.000000     2.000000      9.000000      242.000000     2.000000    13.000000    10.000000     1.000000     1.000000          0.000000          0.000000
+max    9.996977e+06     2.000000        10.000000     3.000000     9.000000    12.000000    97.000000  230301.000000                 2.000000      2.000000     3.000000    10.000000         9.000000      19.000000         19.000000         19.000000         19.000000       7.000000        6.000000           2.000000     9.000000      9.000000      250.000000     2.000000   201.000000   181.000000   156.000000    94.000000         44.000000         46.000000

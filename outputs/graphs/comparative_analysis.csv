@@ -1,0 +1,7 @@
+Dataset,Total Rows,Total Columns,Numeric Columns,Missing Values,Duplicate Rows
+0910_enr1_cleaned.csv,11694,29,29,0,0
+0910_enr2_cleaned.csv,20419,29,29,0,0
+0910_fac_cleaned.csv,1741,70,70,0,0
+0910_prof1_cleaned.csv,1741,36,30,5996,0
+0910_prof2_cleaned.csv,1741,17,17,0,0
+0910_tch_cleaned.csv,1741,38,38,0,0
